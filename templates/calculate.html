@@ -1,0 +1,13 @@
+<html>
+    <head>calculating marks</head>
+    <body>
+        <form action="{{url_for('calculate')}}" method="post">
+            <input type="text" name="maths" placeholder="Maths" required="required"/>
+            <input type="text" name="science" placeholder="Science" required="required"/>
+            <input type="text" name="history" placeholder="history" required="required"/>
+
+            <button type="submit" class="btn btn-primary btn block btn-large">Calculate Button</button>
+
+        </form>
+    </body>
+</html>
